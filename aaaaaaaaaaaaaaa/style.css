@@ -1,0 +1,36 @@
+html {
+  height: 100%;
+  /*width: 100%;
+  display: flex;*/
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(to bottom, #eea5a5, #efa3a3); /* Gradient background */
+}
+body {
+  text-align: center;
+  font-family: 'CustomFont', Arial, sans-serif;
+}
+img {
+  max-width: 100%;
+  height: auto%;
+  margin: 20px;
+  border-radius: 10px; /* Cool hover effect */
+  transition: transform 0.3s ease-in-out;
+}
+img:hover {
+  transform: scale(1.1); /* Cool hover effect */
+}
+p {
+  margin: 20px;
+  line-height: 1.6;
+}
+h1 {
+  color: #ff4500; /* Enhance the color of h1 */
+}
+
+/*custom font*/
+@font-face {
+  font-family: 'CustomFont';
+  src: url('Candy.otf') format('truetype');
+}
